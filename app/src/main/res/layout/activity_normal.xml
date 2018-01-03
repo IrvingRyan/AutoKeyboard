@@ -17,4 +17,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="show keyboard" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Click out side of keyboard to hide" />
 </LinearLayout>
