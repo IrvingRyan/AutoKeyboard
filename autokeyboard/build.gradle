@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release' // must be applied after your artifact generating plugin (eg. java / com.android.library)
 
 android {
     compileSdkVersion 26
@@ -28,4 +29,13 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:recyclerview-v7:26.1.0'
 
+}
+
+publish {
+    userOrg = 'ywt1991'
+    groupId = 'com.github.irvingryan'
+    artifactId = 'autokeyboard'
+    publishVersion = '1.0.0'
+    desc = 'Soft keyboard show/hidden events in Android'
+    website = 'https://github.com/IrvingRyan/AutoKeyboard'
 }
