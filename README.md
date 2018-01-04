@@ -52,7 +52,7 @@ Demo
 you must add this line to your activity reference in your manifest.xml
 
 ```xml
-	android:windowSoftInputMode="adjustResize"
+    android:windowSoftInputMode="adjustResize"
 ```
 
 
