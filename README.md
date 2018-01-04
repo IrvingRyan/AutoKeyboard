@@ -47,8 +47,18 @@ Demo
     }
 ```
 
+##### Xml:
+
+you must add this line to your activity reference in your manifest.xml
+
+```xml
+	android:windowSoftInputMode="adjustResize"
+```
+
+
 Thanks
 --
+
 * [HideKeyboard](https://github.com/yingLanNull/HideKeyboard)
 * [Catch soft keyboard show/hidden events in Android](https://felhr85.net/2014/05/04/catch-soft-keyboard-showhidden-events-in-android/)
 
