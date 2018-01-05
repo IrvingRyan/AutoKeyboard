@@ -25,6 +25,8 @@ Demo
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         autoKeyboard = new AutoKeyboard(this);
+        //optional
+      	//set callback when you need catch events
         autoKeyboard.setKeyboardVisibilityCallback(new AutoKeyboard.KeyboardVisibilityCallback() {
             @Override
             public void onSoftKeyboardHide() {
